@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+
+body{
+    font-family: "Momo Trust Display", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sign_up{
+    background-color: black;
+}
+
+.Sign_up p{
+    color: white;
+    margin-right: 0px;
+    margin-left: 400px;
+}
+
+.Sign_up a{
+    color: white;
+    margin-right: 425px;
+    margin-left: 5px;
+}
+
+.Menu input{
+    padding: 16px 12px;
+    border-radius: 62px;
+    width: 577px;
+    margin-right: 40px;
+}
+
+.Menu-inside input{
+    padding: 14px 80px 14px 52px;
+    margin-left: -50px;
+}
+
+.Menu-inside img{ 
+    z-index: 1000;
+}
+
+.Menu h2{
+    font-weight: 700;
+    font-size: 32px;
+    margin-right: 40px;
+}
+
+.Menu h4{
+    font-weight: 400;
+    font-size: 16px; 
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.Menu img{
+    margin-right: 14px;
+}
+
+.Clothes{
+    background-color: #F2F0F1;
+}
+
+.Clothes-left{
+    margin-right: 85px;
+}
+
+.Clothes-left h1{
+    font-size: 64px;
+    font-weight: 700;
+    width: 577px;
+}
+
+.Clothes-left p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 545px;
+    margin-bottom: 32px;
+}
+
+.Clothes-left a{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: black;
+    padding: 16px 54px;
+    border-radius: 62px;
+}
+
+.Clothes-left-card{
+    margin-right: -300px;
+    margin-top: 48px;
+}
+
+.Clothes-left-card h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.Clothes-left-card p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -30px;
+}
+
+.Clothes-left-inside{
+    display: flex; 
+}
+
+.Logos{
+    background-color: black;
+}
+
+.Logos img{
+    margin-right: 54px;
+    margin-left: 54px;
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+.Arrivals h2{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.Card{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 36px;
+}
+
+.Card h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Card h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.Arrivals a{
+    border: 1px solid black;
+    color: black;
+    padding: 16px 54px;
+    border-radius: 62px;
+    margin-left: 700px;
+    margin-bottom: 64px;
+}
+
+.Card a{
+    border: none;
+    padding: 0px 0px;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+hr{
+    width: 1240px;
+    margin-top: 64px;
+}
+
+.Dress-Style{
+    background-color: #F0F0F0;
+    padding: 64px 73px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+
+.Dress-Style img{
+    margin: 20px 20px;
+}
+
+.Dress-Style h3{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.Customers{
+    display: flex;
+}
+
+.h4{
+    font-size: 48px;
+    font-weight: 700; 
+    margin-left: 50px;
+    margin-bottom: -50px;
+    text-align: center;
+}
+
+.Customer-Card{
+    border: 1px solid black;
+    padding: 28px 32px;
+    border-radius: 20px;
+    margin: 20px 45px;
+}
+
+.Customer-Card p{
+   width: 622px; 
+}
+
+.Customer-Card h6{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Name{
+    display: flex;
+    margin-bottom: -15px;
+}
+
+.Name h5{
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.Name img{
+    width: 24px;
+    height: 24px;
+    margin-top: 34px;
+}
+
+.Offers{
+    background-color: black;
+    padding: 36px 64px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.Offers p{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.Offers-inside{
+    display: flex;
+    flex-direction: column;
+}
+
+.Offers-inside-input{
+    margin-bottom: 14px;
+}
+
+.Offers-inside input{
+    border-radius: 62px;
+}
+
+.Offers-inside-input input{
+    padding: 14px 124px 14px 52px;
+}
+
+.Offers-inside-input img{
+    margin-right: -50px;
+    z-index: 1000;
+}
+
+.Offers-inside a{
+    font-size: 16px;
+    color: black;
+    padding: 12px 100px 12px 100px;
+    border-radius: 62px;
+    background-color: white;
+    text-align: center;
+}
+
+.Footer-1{
+    background-color: #F0F0F0;
+    margin-bottom: -75px;
+}
+
+.Shop-co{
+    margin-left: 56.5px;
+    margin-right: 56.5px;
+}
+
+.Shop-co h5{
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.Shop-co p{
+    width: 248px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.Company{
+    margin-left: 56.5px;
+    margin-right: 56.5px;
+}
+
+.Company h5{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.Company h6{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Help{
+    margin-left: 56.5px;
+    margin-right: 56.5px;
+}
+
+.Help h5{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.Help h6{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.FAQ{
+    margin-left: 56.5px;
+    margin-right: 56.5px;
+}
+
+.FAQ h5{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.FAQ h6{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Resources{
+    margin-left: 56.5px;
+    margin-right: 56.5px;
+}
+
+.Resources h5{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.Resources h6{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Footer-Bottom-1{
+    background-color: #F0F0F0;
+    margin-bottom: -15px;
+}
+
+.Footer-Bottom-1 p{
+    font-size: 14px;
+    font-weight: 200;
+    margin-right: 690px;
+}
+
+.line{
+    margin-top: 25px;
+    margin-bottom: 24px;
+    width: 1445px;
+}
+
+.Bread_Crumbs{
+    margin-left: 60px;
+}
+
+.Edit{
+    margin-left: 40px;
+}
+
+.Edit h4{
+    font-size: 40px;
+    font-weight: 700;
+    width: 600px;
+}
+
+.Edit img{
+    width: 193px;
+    height: 25px;
+}
+
+.Edit h5{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.Edit hr{
+    width: 590px;
+}
+
+.Edit h6{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Size a{
+    margin-left: 6px;
+    margin-right: 6px;
+    color: black;
+    background-color: #F0F0F0;
+    padding: 12px 24px;
+    border-radius: 62px;
+}
+
+.Size a:hover{
+    background-color: black;
+    color: white;
+}
+
+.Reviews h3{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.h3 h3{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.Products{
+    width: 1450px;
+    margin-top: 24px;
+}
+
+.Clothes_1{
+    background-color: white;
+}
+
+.Problem{
+    border-radius: 20px;
+}
